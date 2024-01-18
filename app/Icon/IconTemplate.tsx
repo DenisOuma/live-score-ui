@@ -19,7 +19,7 @@ export const IconTemplate: React.FC<IconTemplateProps> = ({
 	svgTitle,
 	onClick,
 }) => {
-	const classes = classNames("icon-template", className);
+	const classes = classNames("", className);
 
 	return (
 		<div className={classes} title={svgTitle}>

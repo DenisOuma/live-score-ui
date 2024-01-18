@@ -87,7 +87,7 @@ a {
 	font-size: 1.2rem;
 } */
 .search-input {
-	width: 95%;
+	width: 35%;
 	position: relative;
 	margin: 5px;
 	display: flex;
@@ -115,4 +115,28 @@ a {
 .icon-template {
 	position: absolute;
 	margin-left: 0.5rem;
+}
+
+.menu-options {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 35%;
+}
+
+.icon-button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--posttext-color);
+	font-size: medium;
+	font-weight: 500;
+}
+
+.button-icon {
+	margin-left: 5px;
 }

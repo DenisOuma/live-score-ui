@@ -142,7 +142,7 @@ a {
 }
 
 .feed {
-	margin-top: 0.3rem;
+	margin-top: 0.1rem;
 	display: block;
 }
 
@@ -156,4 +156,19 @@ a {
 	background-color: var(--light-color) !important;
 	color: var(--posttext-color) !important;
 	border-radius: 0.375rem !important;
+}
+.feed-components-cards {
+	display: flex;
+	justify-content: space-between;
+}
+
+.martches-card {
+	background-color: var(--light-color);
+	width: 40%;
+	border-radius: 4px;
+}
+.cards-score {
+	background-color: var(--light-color);
+	width: 32%;
+	border-radius: 4px;
 }

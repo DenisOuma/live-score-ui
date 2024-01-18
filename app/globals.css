@@ -409,3 +409,16 @@ h2 {
 	margin-top: 10px;
 	color: var(--secondary-color);
 }
+
+/* ALl Media QUerry */
+@media (max-width: 768px) {
+	.icon-button > span {
+		display: none;
+	}
+	#logo {
+		font-size: 1.2rem;
+	}
+	.search-input {
+		display: none;
+	}
+}

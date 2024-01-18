@@ -17,7 +17,7 @@ export const IconButton: React.FC<IconButtonProps> = ({
 }) => {
 	return (
 		<button className={`icon-button ${className} `} title={svgTitle}>
-			<span>{name}</span>
+			<span className="mobile-text-btn">{name}</span>
 			<IconTemplate
 				className="button-icon"
 				svgName={svgName ?? ""}

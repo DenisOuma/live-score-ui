@@ -412,13 +412,68 @@ h2 {
 
 /* ALl Media QUerry */
 @media (max-width: 768px) {
-	.icon-button > span {
-		display: none;
+	.menu-options > .icon-button > span {
+		display: none !important;
 	}
 	#logo {
 		font-size: 1.2rem;
 	}
 	.search-input {
 		display: none;
+	}
+	.feed-components-cards-calender {
+		display: none;
+	}
+	.martches-card {
+		width: 100%;
+		border-radius: 0px;
+	}
+	.mobile-text-btn {
+		display: flex !important;
+	}
+	.filter {
+		padding: 5px;
+		top: 17.5rem;
+		position: sticky !important;
+		margin-top: 11rem;
+	}
+	.icon-button {
+		margin-left: 3px;
+	}
+	.menu-options {
+		width: 50% !important;
+	}
+	.card-score-container {
+		position: absolute;
+		width: 100%;
+	}
+	.time-match {
+		width: 80%;
+	}
+	.card-score-status > p {
+		font-size: small;
+	}
+	.card-score-status > h2 {
+		font-size: medium;
+	}
+	.score-number {
+		font-size: 2rem;
+	}
+
+	.inner_box {
+		width: 61px;
+		height: 61px;
+	}
+	.outer_box {
+		width: 64px;
+		height: 66px;
+	}
+	.time-match > p {
+		font-size: small;
+	}
+	.cards-score {
+		position: fixed !important;
+		top: 3rem;
+		margin-top: 1rem;
 	}
 }

@@ -1,6 +1,6 @@
 :root {
 	--primary-color: #2766cc;
-	--secondary-color: #1198f5;
+	--secondary-color: #ffde09;
 	--light-color: #2a3543;
 	--input-focus: #0b6bcb;
 	--background-color: #131a21;
@@ -171,4 +171,52 @@ a {
 	background-color: var(--light-color);
 	width: 32%;
 	border-radius: 4px;
+}
+
+.filter {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	align-items: center;
+	background-color: var(--reaction-icons-color);
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.filter-btns {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 60%;
+}
+.filter-btn-active {
+	color: var(--icon-color);
+	border: 1px solid var(--icon-color);
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+	font-weight: 700;
+	font-size: small;
+}
+.filter-btn {
+	color: var(--posttext-color);
+	border: 1px solid var(--posttext-color);
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+	font-weight: 400;
+	font-size: small;
+}
+
+.total-matches {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	color: #131a21;
+	font-weight: 600;
+	background-color: var(--secondary-color);
+	border-radius: 100%;
+	font-size: small;
 }

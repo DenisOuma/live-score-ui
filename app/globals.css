@@ -140,3 +140,20 @@ a {
 .button-icon {
 	margin-left: 5px;
 }
+
+.feed {
+	margin-top: 0.3rem;
+	display: block;
+}
+
+.fonts-style {
+	font-size: medium;
+	color: var(--reaction-icons-color);
+	font-weight: 500;
+}
+
+.rdrCalendarWrapper {
+	background-color: var(--light-color) !important;
+	color: var(--posttext-color) !important;
+	border-radius: 0.375rem !important;
+}

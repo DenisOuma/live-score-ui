@@ -1,5 +1,6 @@
 import { IconButton } from "@/app/SHARED/IconButton/IconButton";
 import React from "react";
+import { FeedSectionCardsMatchCountryCard } from "./FeedSectionCardsMatch/FeedSectionCardsMatchCountryCard/FeedSectionCardsMatchCountryCard";
 
 export const FeedSectionCardsMatch = () => {
 	return (
@@ -13,6 +14,14 @@ export const FeedSectionCardsMatch = () => {
 				</div>
 				<span className="total-matches">10</span>
 			</div>
+			<FeedSectionCardsMatchCountryCard />
+			<FeedSectionCardsMatchCountryCard />
+			<FeedSectionCardsMatchCountryCard />
+			<FeedSectionCardsMatchCountryCard />
+			<FeedSectionCardsMatchCountryCard />
+			<FeedSectionCardsMatchCountryCard />
+			<FeedSectionCardsMatchCountryCard />
+			<FeedSectionCardsMatchCountryCard />
 		</div>
 	);
 };

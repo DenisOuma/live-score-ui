@@ -25,6 +25,7 @@
     "react": "^18.2.0",
     "react-date-range": "^2.0.0-alpha.4",
     "react-dom": "^18",
+    "react-world-flags": "^1.6.0",
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
@@ -33,6 +34,7 @@
     "@types/react": "^18",
     "@types/react-date-range": "^1.4.9",
     "@types/react-dom": "^18",
+    "@types/react-world-flags": "^1.4.5",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
     "typescript": "^5"

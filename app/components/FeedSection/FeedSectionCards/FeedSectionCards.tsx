@@ -8,7 +8,9 @@ export const FeedSectionCards = () => {
 		<div className="feed-components-cards">
 			<FeedSectionCardsCalender />
 			<FeedSectionCardsMatch />
-			<FeedSectionCardsScore />
+			<div className="card-score-container">
+				<FeedSectionCardsScore />
+			</div>
 		</div>
 	);
 };
